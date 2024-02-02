@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/class.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" arial-label="Close menu" role="button">
+    <label for="close-menu" class="close-menu-label" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#intro">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#top3">top3</a></li>
+                    <li><a href="#grid-one">grid-one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#grid-two">grid-two</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <section id="intro" class="main-bg section">
+        <div class="menu-spacing"></div>
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January Brings Us Firefox 85</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus obcaecati sit accusamus, odio molestias ullam officia cupiditate vel debitis pariatur! Perferendis eaque sequi maxime accusamus, iure corrupti quaerat culpa rerum.</p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/img-intro.svg" alt="logo html, css e javascrip">
+            </div>
+        </div>
+    </section>
+
+    <section id="top3" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>top 3 jobs</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ipsum eos iure excepturi non. Odit, vero nihil perferendis ab recusandae aliquam quis, eius doloribus quo non illum, eum ipsam commodi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eligendi optio explicabo saepe. Deserunt voluptatibus quisquam autem velit possimus provident temporibus, asperiores repellendus cupiditate consequatur? Quidem temporibus atque blanditiis doloribus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sunt eius fuga eligendi provident incidunt consequuntur pariatur deleniti, iusto quaerat ipsam beatae, asperiores id debitis a qui odit illo error.</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one intro main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus cumque, eius odit excepturi quibusdam molestias tenetur repellat distinctio adipisci ratione quasi sunt dicta quis eaque perspiciatis dolorem alias, quas nulla.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, nemo. Nostrum beatae cupiditate eius corporis! Corporis, repellendus est non possimus temporibus dolore nesciunt sapiente deserunt accusamus, ducimus saepe, magnam itaque.</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, nemo. Nostrum beatae cupiditate eius corporis! Corporis, repellendus est non possimus temporibus dolore nesciunt sapiente deserunt accusamus, ducimus saepe, magnam itaque.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one gallery intro white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">gallery</h2>
+            <p class="grid-description">Uma breve descrição.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?brazil=1" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?brazil=2" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?brazil=3" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?brazil=4" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?brazil=5" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?brazil=6" alt="random image from unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="grid-one intro main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">my grid 2</h2>
+            <p class="grid-description">Descrição da segunda grid</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae cum nobis sunt autem. Consectetur, fugiat quas animi in, delectus ad, sed laboriosam saepe atque vero aliquam tenetur mollitia! Accusamus, magni.</p>
+                </article>
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae cum nobis sunt autem. Consectetur, fugiat quas animi in, delectus ad, sed laboriosam saepe atque vero aliquam tenetur mollitia! Accusamus, magni.</p>
+                </article>
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae cum nobis sunt autem. Consectetur, fugiat quas animi in, delectus ad, sed laboriosam saepe atque vero aliquam tenetur mollitia! Accusamus, magni.</p>
+                </article>
+            </div>
+        </div>        
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>pricing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quidem doloremque amet minus maxime fuga qui, totam quo iste quaerat quia assumenda laborum a consectetur sit aut natus omnis unde?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci tenetur, harum voluptatum ipsam perferendis quas numquam sunt rem dolorem vel voluptates exercitationem consequuntur similique molestias assumenda dicta suscipit fuga obcaecati.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Princing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Teste</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="main-bg section">
+        <div class="menu-spacing"></div>
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January Brings Us Firefox 85</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus obcaecati sit accusamus, odio molestias ullam officia cupiditate vel debitis pariatur! Perferendis eaque sequi maxime accusamus, iure corrupti quaerat culpa rerum.</p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/img-intro.svg" alt="logo html, css e javascrip">
+            </div>
+            <div class="contant-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="ex.: email@email.com">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="30" rows="10" placeholder="Write something to send..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer" class="white-bg">
+        <p>
+            <a rel="nofollow" target="_blank" href="#">Feito com <span class="heart">&hearts;</span> por Paulo Vinícius</a>
+        </p>
+    </footer>
+
+    <a class="back-to-top" href="#">↶</a>
+</body>
+</html>
