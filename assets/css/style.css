@@ -252,4 +252,30 @@
     .menu-spacing {
         display: none;
     }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    .grid h3::before {
+        font-size: 7rem;
+    }
+
+    .form-group {
+        flex: 1 1 24rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 2rem;
+    }
+
+    .form-group button {
+        padding: 1.5rem 2rem;
+        font-size: 2rem;
+    }
 }
